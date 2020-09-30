@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Group</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>DIGITAL TALENT : | Form dengan Bootstrap</h2>
+        <form>
+            <div class="form-group">
+              <label for="nama">Nama Anda :</label>
+              <input type="text" class="form-control" id="nama" placeholder="Masukkan nama sesuai KTP">
+            </div>
+            
+            <div class="form-group">
+                <label for="alamat">Alamat Anda :</label>
+                <textarea class="form-control" id="alamat" rows="3" placeholder="Sesuai alamat rumah"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="jenisKelamin">Jenis Kelamin</label>
+              <select class="form-control" id="jenisKelamin">
+                <option>Pria</option>
+                <option>Wanita</option>
+                <option>Lainnya</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-primary">Kirim</button>
+          </form>
+    </div>
+    
+
+      <script src="js/jquery-3.5.1.slim.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
