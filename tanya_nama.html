@@ -1,0 +1,28 @@
+<!-- Buatlah file html seperti contoh pada video yang dilampirkan latihan ini.
+Gunakan operator ternary, dialog promt, maupun fungsi write/innerHtml.
+Lalu unggah file html tersebut. -->
+
+<!DOCTYPE html>
+<head>
+    <title>Tanya Nama</title>
+</head>
+<body>
+    <div id="namaDepan"></div>
+    <div id="namaBelakang"></div>
+    <div id="hasil"></div>
+
+    <script>
+         // Variabel dan prompt
+        var namaDepan = prompt('Tuliskan nama depan kamu!','');
+        var namaBelakang = prompt('Tuliskan nama belakang kamu!','');
+        var namaDe = namaDepan ? namaDepan : " ";
+        var namaBe = namaBelakang ? namaBelakang : " ";
+        var gabung = `${namaDe} ${namaBe} `
+        var result = gabung ? `Jadi nama lengkap kamu adalah ${gabung}` : " "
+        // menampilkan di html
+        document.getElementById('namaDepan').innerHTML = `Nama depan kamu : ${namaDe}`;
+        document.getElementById('namaBelakang').innerHTML = `Nama belakang kamu : ${namaBe}`;
+        document.getElementById('hasil').innerHTML = `${result}`;
+    </script>
+</body>
+</html>

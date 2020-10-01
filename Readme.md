@@ -12,4 +12,4 @@ Tanggal : 30 September 2020
 
 ## Pelatihan hari 4
 Tanggal : 1 Oktober 2020
-- [ ] Menunggu
+- [x] Membuat program tanya nama dengan promp javascript
