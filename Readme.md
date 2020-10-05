@@ -18,3 +18,9 @@ Tanggal : 1 Oktober 2020
 Tanggal : 2 oktober 2020
 - [x] Membuat Fungsi Tambah, Edit dan Hapus Array Javascript
 - [x] Belajar ajax dan jquery perintah load dan get data petanikode 
+
+## Pelatihan hari ke 6
+Tanggal : 5 oktober 2020
+- [x] PHP Case Sensitivity
+- [x] Latihan membuat form php
+- [x] Membuat Biodata php
