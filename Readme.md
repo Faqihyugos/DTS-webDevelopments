@@ -24,3 +24,15 @@ Tanggal : 5 oktober 2020
 - [x] PHP Case Sensitivity
 - [x] Latihan membuat form php
 - [x] Membuat Biodata php
+
+## Pelatihan hari ke 7
+Tanggal : 6 oktober 2020
+Latihan JS
+- [x] Membuat aplikasi untuk menampilkan daftar menu yang
+bisa dipilih dan kemudian menampilkan jumlah biaya yang
+harus dibayarkan.
+- [x] Login Validation
+
+## Pelatihan hari ke 8
+Tanggal : 7 oktober 2020
+- [x] Fungsi dan prosedur
